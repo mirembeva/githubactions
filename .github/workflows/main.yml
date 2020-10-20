@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: mirembeva/githubactions
+      uses: ./mirembeva/githubactions
       with:
         who-to-greet: 'Mirembe'
     # Use the output from the `hello` step
